@@ -1,46 +1,43 @@
-AI Voice Note Summarizer
+🎙️ AI Voice Note Summarizer
 ---
-##1. Project Overview
+## 1. Project Overview
 
 AI Voice Note Summarizer is an artificial intelligence–based application that converts Tamil voice recordings into English text and generates a concise summary of the spoken content.
 This project helps users easily understand long voice notes without listening to the entire audio.
-----
-##2. Objectives
 
-To convert Tamil speech into English text
+## 2. Objectives
 
-To generate meaningful summaries from audio content
+- To convert Tamil speech into English text
 
-To apply speech recognition and natural language processing techniques
+- To generate meaningful summaries from audio content
 
-To provide a simple and user-friendly interface
+- To apply speech recognition and natural language processing techniques
 
----
-##3. System Workflow
+- To provide a simple and user-friendly interface
 
-The user uploads a Tamil voice audio file
+## 3. System Workflow
 
-The speech recognition model converts the audio into English text
+- The user uploads a Tamil voice audio file
 
-The summarization model analyzes the text
+- The speech recognition model converts the audio into English text
 
-A concise summary is generated and displayed
+- The summarization model analyzes the text
 
-----
-##4. Technologies Used
+- A concise summary is generated and displayed
 
-Python
+## 4. Technologies Used
 
-OpenAI Whisper (Speech Recognition & Translation)
+1. Python
 
-Hugging Face Transformers (Summarization)
+2. OpenAI Whisper (Speech Recognition & Translation)
 
-Gradio (User Interface)
+3. Hugging Face Transformers (Summarization)
 
-PyTorch
+4. Gradio (User Interface)
 
-----
-##5. Features
+5. PyTorch
+
+## 5. Features
 
 Supports Tamil voice input
 
@@ -52,8 +49,7 @@ Accepts WAV and MP3 audio formats
 
 Easy-to-use interface
 
----
-##6. Accuracy and Performance
+## 6. Accuracy and Performance
 
 The system was evaluated using real-time Tamil voice samples.
 
@@ -65,8 +61,7 @@ Summarization retains key information
 
 The system performs reliably for practical voice note summarization tasks.
 
----
-##7. Applications
+## 7. Applications
 
 Voice note summarization
 
@@ -76,8 +71,7 @@ Meeting and lecture summaries
 
 Language translation assistance
 
----
-##8. Project Structure
+## 8. Project Structure
 AI_Voice_Note_Summarizer/
 
 │
@@ -86,10 +80,8 @@ AI_Voice_Note_Summarizer/
 
 ├── requirements.txt
 
-├── README.pdf
+└── README.pdf
 
-└── description.txt
----
-##9. Author
+## 9. Author
 
 Padmasree Rajavel
