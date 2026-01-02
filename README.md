@@ -1,103 +1,89 @@
-🎙️ AI Voice Note Summarizer
+AI Voice Note Summarizer
+---
+1. Project Overview
 
-📌 Project Overview
+AI Voice Note Summarizer is an artificial intelligence–based application that converts Tamil voice recordings into English text and generates a concise summary of the spoken content.
+This project helps users easily understand long voice notes without listening to the entire audio.
 
-AI Voice Note Summarizer is an artificial intelligence–based application designed to convert Tamil voice recordings into English text and generate a concise summary of the spoken content. The project focuses on simplifying audio-based information by transforming it into readable and meaningful text output.
+2. Objectives
 
-This system is especially useful for understanding long voice notes quickly without the need to manually listen to the entire audio.
+To convert Tamil speech into English text
 
-🎯 Objectives
+To generate meaningful summaries from audio content
 
-To convert Tamil speech into English text using AI models
+To apply speech recognition and natural language processing techniques
 
-To generate a meaningful summary from the translated text
+To provide a simple and user-friendly interface
 
-To provide a simple and user-friendly interface for interaction
+3. System Workflow
 
-To demonstrate the practical use of speech recognition and natural language processing
+The user uploads a Tamil voice audio file
 
-⚙️ System Workflow
+The speech recognition model converts the audio into English text
 
-The user uploads a Tamil voice audio file.
+The summarization model analyzes the text
 
-The speech recognition module processes the audio and converts it into English text.
+A concise summary is generated and displayed
 
-The translated text is analyzed using a summarization model.
+4. Technologies Used
 
-A concise and meaningful summary is generated and displayed to the user.
+Python
 
-🧠 Technologies Used
+OpenAI Whisper (Speech Recognition & Translation)
 
-Python – Core programming language
+Hugging Face Transformers (Summarization)
 
-OpenAI Whisper – Speech recognition and translation
+Gradio (User Interface)
 
-Hugging Face Transformers – Text summarization
+PyTorch
 
-Gradio – Web-based user interface
+5. Features
 
-PyTorch – Model execution backend
+Supports Tamil voice input
 
-✨ Key Features
-
-Supports Tamil voice audio input
-
-Converts speech directly into English text
+Converts speech into English text
 
 Generates short and meaningful summaries
 
-Handles WAV and MP3 audio formats
+Accepts WAV and MP3 audio formats
 
-Simple and interactive user interface
+Easy-to-use interface
 
-📊 Accuracy and Performance
+6. Accuracy and Performance
 
-The performance of the system was evaluated using real-time Tamil voice samples.
+The system was evaluated using real-time Tamil voice samples.
 
-The speech-to-text module achieved an average accuracy of approximately 92% for clear audio inputs.
+Speech-to-text accuracy: ~92% for clear audio
 
-The translation output preserved contextual meaning with minimal semantic loss.
+Translation preserves contextual meaning
 
-The summarization module generated concise summaries while retaining key information.
+Summarization retains key information
 
 The system performs reliably for practical voice note summarization tasks.
 
-🧪 Testing
-
-The application was tested using multiple Tamil audio samples with different speaking styles and durations. Clear and moderately paced speech produced the best results. Short audio clips resulted in accurate transcription, while longer clips effectively demonstrated summarization capabilities.
-
-📁 Project Structure
-AI_Voice_Note_Summarizer/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-└── description.txt
-
-▶️ How to Run the Project
-
-Install the required dependencies:
-
-pip install -r requirements.txt
-
-
-Run the application:
-
-python app.py
-
-
-Upload a Tamil voice audio file and view the translated text and summary.
-
-📌 Applications
+7. Applications
 
 Voice note summarization
 
-Educational content understanding
+Educational audio content processing
 
 Meeting and lecture summaries
 
 Language translation assistance
 
-👤 Author
+8. Project Structure
+AI_Voice_Note_Summarizer/
+
+│
+
+├── app.py
+
+├── requirements.txt
+
+├── README.pdf
+
+└── description.txt
+
+10. Author
 
 Padmasree Rajavel
